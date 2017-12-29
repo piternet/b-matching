@@ -1,0 +1,9 @@
+# this graph is adopted from Khan et al, 2016
+0 2 8
+0 3 6
+0 4 4
+0 5 2
+1 2 3
+1 3 7
+1 4 1
+1 5 9
