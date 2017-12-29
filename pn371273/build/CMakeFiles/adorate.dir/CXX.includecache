@@ -11,14 +11,26 @@ blimit.hpp
 /home/piternet/mimuw/pw-zad2/adorators-files/pn371273/blimit.hpp
 iostream
 -
+fstream
+-
+vector
+-
+map
+-
+set
+-
 string
 -
-cstdio
+queue
 -
-
-/home/piternet/mimuw/pw-zad2/adorators-files/pn371273/blimit.cpp
-blimit.hpp
-/home/piternet/mimuw/pw-zad2/adorators-files/pn371273/blimit.hpp
+stack
+-
+mutex
+-
+thread
+-
+sstream
+-
 
 /home/piternet/mimuw/pw-zad2/adorators-files/pn371273/blimit.hpp
 
