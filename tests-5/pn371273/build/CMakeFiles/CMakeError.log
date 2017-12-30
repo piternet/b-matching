@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2833524485/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2833524485.dir/build.make CMakeFiles/cmTryCompileExec2833524485.dir/build
+make[1]: Wejście do katalogu `/home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2833524485.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2833524485.dir/CheckSymbolExists.c.o   -c /home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2833524485
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2833524485.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2833524485.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2833524485 -rdynamic 
+CMakeFiles/cmTryCompileExec2833524485.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2833524485] Błąd 1
+make[1]: Opuszczenie katalogu `/home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2833524485/fast] Błąd 2
+
+File /home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec706934331/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec706934331.dir/build.make CMakeFiles/cmTryCompileExec706934331.dir/build
+make[1]: Wejście do katalogu `/home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec706934331.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec706934331.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec706934331
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec706934331.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec706934331.dir/CheckFunctionExists.c.o  -o cmTryCompileExec706934331 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec706934331] Błąd 1
+make[1]: Opuszczenie katalogu `/home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec706934331/fast] Błąd 2
+
+

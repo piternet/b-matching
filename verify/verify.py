@@ -77,7 +77,7 @@ if __name__ == "__main__":
     timelimit = 5
     # --------------------------------------------------
     # TODO: put your studentid here
-    students = ['ab123456']
+    students = ['pn371273']
     # --------------------------------------------------
     basedir = os.getcwd()
     zipdir = "../sols/"

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #TODO: put your student id here
-STUDENTID=ab123456
+STUDENTID=pn371273
 
-zip $STUDENTID.zip CMakeLists.txt adorate-42.cpp blimit.hpp blimit.cpp  
+zip $STUDENTID.zip CMakeLists.txt adorate-seq.cpp blimit.hpp blimit.cpp  
 mv $STUDENTID.zip ../sols/

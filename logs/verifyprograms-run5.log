@@ -1,0 +1,14 @@
+2017-12-30 00:53:10,739 : solution: pn371273
+2017-12-30 00:53:13,945 : file: ../../../ref-results/res-paper-1.txt
+2017-12-30 00:53:13,945 : dir: pn371273 params: 1_paper_1
+2017-12-30 00:53:13,948 : subprocess finished
+2017-12-30 00:53:13,949 : file: stdout_1_paper_1.txt
+2017-12-30 00:53:13,949 : error in the result: expected 17 seen 34
+2017-12-30 00:53:13,949 : error in the result: expected 28 seen 56
+2017-12-30 00:53:13,950 : file: ../../../ref-results/res-paper-1.txt
+2017-12-30 00:53:13,950 : dir: pn371273 params: 2_paper_1
+2017-12-30 00:53:13,952 : subprocess finished
+2017-12-30 00:53:13,952 : file: stdout_2_paper_1.txt
+2017-12-30 00:53:13,952 : error in the result: expected 17 seen 34
+2017-12-30 00:53:13,952 : error in the result: expected 28 seen 56
+2017-12-30 00:53:13,952 : solution pn371273 errors 4

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/adorate-seq.cpp
+blimit.hpp
+/home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/blimit.hpp
+iostream
+-
+fstream
+-
+vector
+-
+algorithm
+-
+map
+-
+set
+-
+string
+-
+queue
+-
+stack
+-
+mutex
+-
+thread
+-
+sstream
+-
+
+/home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/blimit.cpp
+blimit.hpp
+/home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/blimit.hpp
+
+/home/piternet/mimuw/pw-zad2/adorators-files/tests-5/pn371273/blimit.hpp
+

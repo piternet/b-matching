@@ -12,7 +12,7 @@ macro(use_cxx11)
     set (CMAKE_CXX_STANDARD 11)
   endif ()
 endmacro(use_cxx11)
-set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall -g -DDEBUG")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O3 -std=c++11 -Wall -g -DDEBUG")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -std=c++11 -O3")
 
 # http://stackoverflow.com/questions/10555706/

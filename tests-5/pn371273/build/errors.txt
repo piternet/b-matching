@@ -1,0 +1,4 @@
+./adorate 1 ../../../data/paper.txt 1
+./adorate 1 ../../../data/paper.txt 1
+./adorate 2 ../../../data/paper.txt 1
+./adorate 2 ../../../data/paper.txt 1

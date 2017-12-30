@@ -1,0 +1,10 @@
+2017-12-30 00:56:43,449 : solution: pn371273
+2017-12-30 00:56:46,978 : file: ../../../ref-results/res-paper-1.txt
+2017-12-30 00:56:46,979 : dir: pn371273 params: 1_paper_1
+2017-12-30 00:56:46,982 : subprocess finished
+2017-12-30 00:56:46,982 : file: stdout_1_paper_1.txt
+2017-12-30 00:56:46,983 : file: ../../../ref-results/res-paper-1.txt
+2017-12-30 00:56:46,983 : dir: pn371273 params: 2_paper_1
+2017-12-30 00:56:46,986 : subprocess finished
+2017-12-30 00:56:46,986 : file: stdout_2_paper_1.txt
+2017-12-30 00:56:46,986 : solution pn371273 errors 0

@@ -1,0 +1,14 @@
+2017-12-30 00:50:38,633 : solution: pn371273
+2017-12-30 00:50:42,112 : file: ../../../ref-results/res-paper-1.txt
+2017-12-30 00:50:42,125 : dir: pn371273 params: 1_paper_1
+2017-12-30 00:50:42,128 : subprocess finished
+2017-12-30 00:50:42,128 : file: stdout_1_paper_1.txt
+2017-12-30 00:50:42,128 : invalid literal for int() with base 10: 'u = 5\n'
+2017-12-30 00:50:42,128 : error while reading output
+2017-12-30 00:50:42,128 : file: ../../../ref-results/res-paper-1.txt
+2017-12-30 00:50:42,129 : dir: pn371273 params: 2_paper_1
+2017-12-30 00:50:42,131 : subprocess finished
+2017-12-30 00:50:42,131 : file: stdout_2_paper_1.txt
+2017-12-30 00:50:42,131 : invalid literal for int() with base 10: 'u = 5\n'
+2017-12-30 00:50:42,131 : error while reading output
+2017-12-30 00:50:42,131 : solution pn371273 errors 4

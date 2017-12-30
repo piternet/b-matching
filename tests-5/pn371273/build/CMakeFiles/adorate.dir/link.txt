@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG -std=c++11 -O3    CMakeFiles/adorate.dir/adorate-seq.cpp.o CMakeFiles/adorate.dir/blimit.cpp.o  -o adorate -rdynamic -lpthread 
